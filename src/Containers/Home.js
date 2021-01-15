@@ -34,31 +34,31 @@ export default function Home({ props }) {
         <hr className='mb-4 mt-2' />
         <div className='flex gap-3'>
           <div className='flex gap-1 '>
-            <Button colorScheme='green' size='lg'>
+            <Button colorScheme='brand' size='lg'>
               ทดสอบ
             </Button>
-            <Button colorScheme='green' size='md'>
+            <Button colorScheme='brand' size='md'>
               ทดสอบ
             </Button>
-            <Button colorScheme='green' size='sm'>
+            <Button colorScheme='brand' size='sm'>
               ทดสอบ
             </Button>
           </div>
           <div className='flex gap-1 font-sans font-normal'>
-            <Button colorScheme='green' size='lg'>
+            <Button colorScheme='brand' size='lg'>
               ทดสอบ
             </Button>
-            <Button colorScheme='green' size='md'>
+            <Button colorScheme='brand' size='md'>
               ทดสอบ
             </Button>
-            <Button colorScheme='green' size='sm'>
+            <Button colorScheme='brand' size='sm'>
               ทดสอบ
             </Button>
           </div>
         </div>
         <br />
         <div className='flex gap-1 '>
-          <Button colorScheme='green' size='md'>
+          <Button colorScheme='brand' size='md'>
             Primary
           </Button>
           <Button colorScheme='pink' size='md'>

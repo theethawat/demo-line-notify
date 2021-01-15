@@ -8,11 +8,21 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Containers/Home";
 import About from "./Containers/About";
-import { emerald } from "tailwindcss/colors";
 
 const theme = extendTheme({
   colors: {
-    green: emerald,
+    brand: {
+      50: "#e9f8f7",
+      100: "#cbf7f0",
+      200: "#97f2de",
+      300: "#56eac8",
+      400: "#29e4b7",
+      500: "#06c780",
+      600: "#06af65",
+      700: "#0c9156",
+      800: "#107249",
+      900: "#105d3e",
+    },
   },
 });
 

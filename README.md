@@ -4,6 +4,8 @@
 
 React-Express Bootstraping Template (Frontend and Backend) for The Duck Creator in 2021. Including
 
+TDC Main Color `#10ceab`
+
 ### Frontend
 
 - **React** from [Create-React-App](https://create-react-app.dev)
