@@ -2,16 +2,12 @@
 
 ![FileSize](https://img.shields.io/github/repo-size/TheDuckCreator/TDC-React-Template)
 
-<a href="https://bulma.io">
-<img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-</a>
-
 React-Express Bootstraping Template (Frontend and Backend) for The Duck Creator in 2021. Including
 
 ### Frontend
 
 - **React** from [Create-React-App](https://create-react-app.dev)
-- **Style Sheet and UI** [Bulma](https://bulma.io) CSS
+- **Style Sheet and UI** [TailwindCSS](https://tailwindcss.com/) as CSS and [Chakra UI](https://chakra-ui.com/) as UI Component Library
 - **Icon** Fontawesone on [React Fontawesone](https://github.com/FortAwesome/react-fontawesome)
 - **Meta Tag Manager** with [React Helmet](https://github.com/nfl/react-helmet)
 - **Router** with [React-router](https://reactrouter.com/)
@@ -67,4 +63,11 @@ it will run concurently backend and fontends. Edit our config file at `src\confi
         |- config.json
         |- index.js
         |- index.css
+        |- tailwind.css
+        |- main.css
+    |- tailwind.config.js
+    |- package.json
+    |- babel.config.json
+    |- .env.development
+    |- .env.production
 ```
