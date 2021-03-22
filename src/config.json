@@ -1,7 +1,7 @@
 {
   "port": 7000,
   "dbConnectionString": "mongodb://localhost:27017/tdc",
-  "clientID": "",
-  "redirectURL": "",
-  "clientSecret": ""
+  "clientID": "0mP7YBGmapyQnkTJolHd2i",
+  "redirectURL": "http://localhost:7000/api/notify",
+  "clientSecret": "epGKlQqs320K7ZCGfxw9WECVRvmTuYmOstYKvSKscve"
 }

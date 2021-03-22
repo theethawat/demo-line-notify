@@ -27,10 +27,13 @@ app.get('/notify', (req, res) => {
     data: qs.stringify(data),
   }
 
-  axios(axiosConfig).then((res) => {
-    console.log(res)
-    const accessToken = res.data.access_token
+  axios(axiosConfig).then((axiosRes) => {
+    const accessToken = axiosRes.data.access_token
+    console.log('Access Token')
     console.log(accessToken)
+    res.send({
+      accessToken: accessToken,
+    })
   })
 })
 
