@@ -19,13 +19,20 @@
             <h2> Get Line Notify Token </h2>
             <br/>
             <div class="alert alert-warning">
-                Edit Config in `/src/config.json` input your clientID, Client Secret and Redirect URL
+                <ul>
+                    <li>
+                        Edit Config in `/src/config.json` input your clientID, Client Secret and Redirect URL
+                    </li>
+                    <li>
+                     Don't Forget to  Add <code>http://localhost:7000/api/notify</code> to one of Callback URL in Line Notify Website
+                    </li>
+                </ul>
+            
             </div>
             <br/>
             <label>ClientID</label>
             <input class="form-control" id="clientID" />
-            <label>Redirect URL</label>
-            <input class="form-control" id="RedirectURL" />
+
             <br />
             <button type="button"  class="btn btn-info" onclick="generateLink()">ขอปุ่มสำหรับ Get Token</button>
             <br />
@@ -38,7 +45,7 @@
 <script>
     function generateLink() {
         var clientId = document.getElementById('clientID').value
-        var redirectURL = document.getElementById('RedirectURL').value
+        var redirectURL = 'http://localhost:7000/api/notify'
 
         document.getElementById("accessTokenBox").innerHTML = `<a href='https://notify-bot.line.me/oauth/authorize?response_type=code&client_id=`+
         clientId +
