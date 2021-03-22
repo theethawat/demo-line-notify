@@ -1,4 +1,7 @@
 {
   "port": 7000,
-  "dbConnectionString": "mongodb://localhost:27017/tdc"
+  "dbConnectionString": "mongodb://localhost:27017/tdc",
+  "clientID": "",
+  "redirectURL": "",
+  "clientSecret": ""
 }

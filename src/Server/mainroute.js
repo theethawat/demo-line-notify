@@ -2,6 +2,7 @@ import Express from 'express'
 
 import axios from 'axios'
 import qs from 'qs'
+import { clientID, redirectURL, clientSecret } from '../config.json'
 const app = Express.Router()
 app.get('/hello', (req, res) => {
   res.send('World')
@@ -14,9 +15,9 @@ app.get('/notify', (req, res) => {
   const data = {
     grant_type: 'authorization_code',
     code: code,
-    redirect_uri: 'http://localhost:7000/api/notify',
-    client_id: 'YOURID',
-    client_secret: 'YOURSECRET',
+    redirect_uri: redirectURL,
+    client_id: clientID,
+    client_secret: clientSecret,
   }
 
   const axiosConfig = {
